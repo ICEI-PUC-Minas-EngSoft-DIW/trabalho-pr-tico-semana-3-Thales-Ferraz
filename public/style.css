@@ -1,0 +1,51 @@
+body{
+    margin:0;
+    padding:0;
+    font-family:'Poppins', sans-serif;
+}
+.container{
+    display:flex;
+    width: 100%;
+}
+
+.pagina-lateral {
+    width:260px;
+    background:#444444;
+    color:white;
+    padding:30px;
+    margin-left: 0px;
+}
+.inf {
+    text-align: center;
+}
+
+.foto {
+    width:150px;
+    height: 150px;
+    border-radius:50%;
+    margin-bottom:20px;
+}
+
+h1 {
+    background-color: #0b2c4b41;
+    padding: 50px;   
+    padding-left: 30%
+}
+
+.conteudo{
+    flex: 1;
+    width:100%;
+    background-color: #E0EEEE;
+}
+
+.conteudo p,
+.conteudo h2,
+.conteudo h3,
+.conteudo ul{
+    padding:0 50px;
+}
+
+
+.hr {
+    padding: 30px;
+}
